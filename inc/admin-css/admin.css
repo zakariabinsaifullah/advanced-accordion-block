@@ -1,0 +1,87 @@
+.dpp_admin_page h2 {
+  border-bottom: 3px solid #ca1919;
+  padding-bottom: 10px;
+  color: #ca1919;
+  font-size: 18px;
+}
+
+.dpp_admin_page {
+  margin-right: 15px;
+}
+
+.dpp_body {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.dpp_left_body {
+  float: left;
+  width: 70%;
+}
+.dpp_left_body p {
+  font-size: 14px;
+}
+.dpp_right_sidebar {
+  float: right;
+  width: 25%;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+.dpp_left_body li {
+  list-style: inside;
+  font-weight: 500;
+}
+
+.dpp_action_img img {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  max-height: auto;
+}
+
+.dpp_action_img img:first-child {
+  margin-right: 1%;
+}
+
+.dpp_left_body h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ca1919;
+}
+
+.dpp_admin_page .single-block {
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.dpp_admin_page .help_link span {
+  display: block;
+  margin: 10px 0;
+  font-size: 15px;
+  color: #ca1841;
+  font-weight: 600;
+}
+
+.dpp_admin_page .icon span {
+  border: 2px solid #188eca;
+  padding: 10px;
+  border-radius: 50%;
+  color: #ca1841;
+}
+
+.dpp_admin_page .help_link a {
+  text-decoration: none;
+  font-size: 15px;
+  background: #ca1919;
+  padding: 8px 10px;
+  margin-top: 15px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 1px;
+}

@@ -1,0 +1,35 @@
+.wp-block-aab-accordion-block {
+  border-top: 1px solid #f00;
+  margin: 0 auto !important;
+  padding: 15px 0;
+
+  .accordion-head {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    cursor: pointer;
+    @for $index from 1 to 6 {
+      h#{$index} {
+        margin: 0 !important;
+      }
+    }
+  }
+
+  .accordion-body {
+    padding: 15px 0;
+  }
+
+  .collapse-icon span {
+    display: block;
+  }
+
+  .accordion-heading {
+    flex: auto;
+  }
+  .accordion-body {
+    display: none;
+  }
+  .accordion-body.active {
+    display: block !important;
+  }
+}
