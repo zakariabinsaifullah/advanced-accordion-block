@@ -67,7 +67,7 @@ function aab_blocks_new_cat( $categories ){
 		)
 	);
 }
-add_filter( 'block_categories', 'aab_blocks_new_cat' );
+add_filter( 'block_categories_all', 'aab_blocks_new_cat' );
 
 /**
  * External Assets
